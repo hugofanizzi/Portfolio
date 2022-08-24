@@ -1,0 +1,14 @@
+@use "styles/variables.scss" as vars;
+
+.navItem{
+    display: flex;
+    justify-content: center;
+    background-color:#232323;
+    font-size: 25px;
+    font-family: vars.$primary-fonts;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+
