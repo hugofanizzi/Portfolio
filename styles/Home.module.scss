@@ -8,11 +8,12 @@
 
 }
 
-.div{
+.photoProfileContainer{
   height:100%;
   width:30%;
 }
 .profilePicture{
+  flex-grow: 1;
   border-radius: 100%;
   opacity:0.5;
  

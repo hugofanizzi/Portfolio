@@ -8,7 +8,7 @@ export default function Home({ information }) {
   return (
     <>
       <div className={styles.container}>
-        <div className={styles.div}>
+        <div className={styles.photoProfileContainer}>
           <Image
             className={styles.profilePicture}
             src={photo_profile}

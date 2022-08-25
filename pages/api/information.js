@@ -8,7 +8,7 @@ const information = [
 
     summary: `¡Que bueno que has llegado hasta aquí!. Soy Hugo José Esparza Fanizzi, nacido en Venezuela, lleno de aspiraciones y metas por cumplir que seguro conseguire aqui en España.
     
-    No creo en la palabra "No se puede" o  "No se hacerlo", pienso que ahora en el mundo que vivimos hay soluciones para todo y por eso me he querido sumergirme en la programación ya que es un mar de infinitas posibilidades. 
+    No creo en la palabra "No se puede" o  "No se hacerlo", pienso que ahora en el mundo que vivimos hay soluciones para todo y por eso me he querido sumergir en la programación ya que es un mar de infinitas posibilidades. 
     
     Me gusta mucho aprender cosas nuevas y me esmero por conseguir los objetivos que me propongo sin importar las veces que caiga seran mas las veces que me levantaré.`,
 
@@ -40,6 +40,7 @@ const information = [
 
   {
     name: `Education`,
+    summary: `Mi última formación ha sido "Desarrollador Web Full Stack" impartido por Adecco y Red.es en el 2022`,
     educations: [
       {
         tittle: `DESARROLLADOR WEB FULL STACK`,
@@ -89,6 +90,7 @@ const information = [
 
   {
     name: `Experiences`,
+    summary: `Mi anterior trabajo fue como "Técnico de reparación de móviles SAMSUNG" en ANOVO`,
     experiences: [
       {
         job: `PRÁCTICAS CURSO PROGRAMADOR WEB
