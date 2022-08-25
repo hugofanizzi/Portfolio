@@ -1,5 +1,6 @@
 import styles from "./layout.module.scss";
 import Head from "next/head";
+import Header from "components/Header";
 
 export default function Layout({ children }) {
   return (
@@ -9,10 +10,10 @@ export default function Layout({ children }) {
         <title>Hugo José Esparza Fanizzi</title>
       </Head>
       <div className={styles.container}>
-        <header className={styles.header}>
-          <h1 className={styles.profession}>WEB DEVELOPER</h1>
-          <h2 className={styles.name}>HUGO ESPARZA</h2>
-        </header>
+        <Header
+          title={"Web Developer"}
+          subtitle={"Hugo José Esparza Fanizzi"}
+        />
         <main>{children}</main>
       </div>
     </>
