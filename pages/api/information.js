@@ -43,7 +43,7 @@ const information = [
     summary: `Mi última formación ha sido "Desarrollador Web Full Stack" impartido por Adecco y Red.es en el 2022`,
     educations: [
       {
-        tittle: `DESARROLLADOR WEB FULL STACK`,
+        title: `DESARROLLADOR WEB FULL STACK`,
         trainingCenter: `ADECCO Y RED.ES`,
         year: `2022`,
         timeContents: `230 Hours`,
@@ -54,7 +54,7 @@ const information = [
         ],
       },
       {
-        tittle: `FUNDAMENTOS DE JAVASCRIPT`,
+        title: `FUNDAMENTOS DE JAVASCRIPT`,
         trainingCenter: `PLATZI`,
         year: `2021`,
         timeContents: `230 Hours`,
@@ -64,7 +64,7 @@ const information = [
         ],
       },
       {
-        tittle: `REPARACIÓN DE DISPOSITIVOS ELECTRÓNICOS`,
+        title: `REPARACIÓN DE DISPOSITIVOS ELECTRÓNICOS`,
         trainingCenter: `IRIPARO`,
         year: `2018`,
         timeContents: `80 Hours`,
@@ -75,13 +75,13 @@ const information = [
         ],
       },
       {
-        tittle: `INGENIERÍA ELECTRÓNICA     AUTOMATIZACIÓN Y CONTROL`,
+        title: `INGENIERÍA ELECTRÓNICA     AUTOMATIZACIÓN Y CONTROL`,
         trainingCenter: `URBE-VENEZUELA`,
         year: `2017`,
         timeContents: `FINALIZADO EN 2º CURSO`,
       },
       {
-        tittle: `BACHILLER EN CIENCIAS`,
+        title: `BACHILLER EN CIENCIAS`,
         trainingCenter: `URBE-VENEZUELA`,
         year: `2010`,
       },
@@ -130,10 +130,10 @@ const information = [
   },
   {
     name: `Contact Me`,
-    tittleName: `Name:`,
-    tittleMessage: `Message:`,
-    tittleEmail: `Email:`,
-    tittleSend: `Confirm`,
+    titleName: `Name:`,
+    titleMessage: `Message:`,
+    titleEmail: `Email:`,
+    titleSend: `Confirm`,
   },
 ];
 

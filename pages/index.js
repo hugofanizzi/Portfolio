@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import photo_profile from "images/profile.png";
 import NavButton from "components/NavButton";
+import SectionLayout from "components/SectionLayout";
 
 export default function Home({ information }) {
   return (
@@ -28,6 +29,7 @@ export default function Home({ information }) {
           </nav>
         </div>
       </div>
+      <SectionLayout></SectionLayout>
     </>
   );
 }
