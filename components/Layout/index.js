@@ -10,8 +10,8 @@ export default function Layout({ children }) {
       </Head>
       <div className={styles.container}>
         <header className={styles.header}>
-          <h1>DESARROLLADOR WEB</h1>
-          <h2>HUGO ESPARZA</h2>
+          <h1 className={styles.profession}>WEB DEVELOPER</h1>
+          <h2 className={styles.name}>HUGO ESPARZA</h2>
         </header>
         <main>{children}</main>
       </div>

@@ -1,14 +1,44 @@
 @use "styles/variables.scss" as vars;
 
+.navItemDescription{
+    text-align: justify;
+    margin: 0;
+    color: black;
+    border-radius: 10px;
+    max-height: 0;
+    max-width: 500px;
+    overflow: hidden;
+    transition: max-height 1s,  background-color 1s, color 1s, margin-top 1s, padding 1s;
+    font-family: vars.$fonts-base;
+}
+
+.container{
+    &:hover{
+        .navItemDescription{
+            max-height: 300px;  
+            background-color: #5c5c5c;    
+            color: white;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+    }
+}
 .navItem{
     display: flex;
     justify-content: center;
     background-color:#232323;
+    width: 200px;
     font-size: 25px;
     font-family: vars.$primary-fonts;
     font-weight: bold;
     padding: 10px;
     border-radius: 20px;
+    z-index: 1;
+    transition: width 2s ease;
+
+    
    
 }
+
 
