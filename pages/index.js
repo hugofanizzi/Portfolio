@@ -34,7 +34,7 @@ export default function Home({ information }) {
         <AboutMe
           name={information[0].name}
           title={information[0].title}
-          subtitle={information[0].story}
+          story={information[0].story}
           personalObjectives={information[0].personalObjectives}
           jobsGoals={information[0].jobsGoals}
           whyMe={information[0].whyMe}

@@ -20,12 +20,12 @@ export default function AboutMe({
       <p className={styles.story}>{story}</p>
       <ul className={styles.personalObjectives}>
         {personalObjectives.map((objetive) => (
-          <li className={styles.objetive}>{objetive}</li>
+          <li>{objetive}</li>
         ))}
       </ul>
       <ul className={styles.jobsGoals}>
         {jobsGoals.map((goals) => (
-          <li className={styles.goals}>{goals}</li>
+          <li>{goals}</li>
         ))}
       </ul>
       <p className={styles.whyMe}>{whyMe}</p>

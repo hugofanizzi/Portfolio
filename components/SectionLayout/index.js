@@ -3,9 +3,11 @@ import styles from "./sectionlayout.module.scss";
 export default function SectionLayout({ children }) {
   return (
     <>
-      <div className={styles.container}>
-        <main>{children}</main>
-        <div className={styles.line}></div>
+      <div className={styles.mainContainer}>
+        <div className={styles.container}>
+          <div className={styles.line}></div>
+          <main>{children}</main>
+        </div>
       </div>
     </>
   );

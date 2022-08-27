@@ -1,17 +1,48 @@
+@use "styles/variables.scss" as vars;
+
+
+
 .container{
     display: flex;
     flex-direction: column;
+    
 }
 
 .name{
-    font-size: 100px;
-    color: white;
+    color: vars.$title-color;
+
+    font-size: 5rem;
 }
+
+.title{
+
+  
+    font-size: 2.5rem;
+}
+
+.subtitle{
+    
+}
+
+.story{
+    background-color: rgba(255, 255, 255, 0.696); 
+    max-width: 1000px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    padding: 15px;
+    text-align: justify;
+    color: black;
+}
+
 
 .personalObjectives{
-    color: white;
+
 }
 
-.objective{
-    color:white
+.jobsGoals{
+
+}
+
+.whyMe{
+
 }
