@@ -1,10 +1,10 @@
 import styles from "./sectionlayout.module.scss";
 
-export default function SectionLayout({ childrem }) {
+export default function SectionLayout({ children }) {
   return (
     <>
       <div className={styles.container}>
-        <main>{childrem}</main>
+        <main>{children}</main>
         <div className={styles.line}></div>
       </div>
     </>
