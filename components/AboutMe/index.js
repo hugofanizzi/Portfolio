@@ -11,13 +11,20 @@ export default function AboutMe({
   photoURL,
   callToAction,
 }) {
+  function createMarkup(c) {
+    return { __html: c };
+  }
+
   return (
     <div className={styles.container}>
       <h1 className={styles.name}>{name}</h1>
       <h2 className={styles.title}>{title}</h2>
       <h3 className={styles.subtitle}>{subtitle}</h3>
       <br />
-      <p className={styles.story}>{story}</p>
+      <text
+        className={styles.story}
+        dangerouslySetInnerHTML={createMarkup(story)}
+      ></text>
       <ul className={styles.personalObjectives}>
         {personalObjectives.map((objetive) => (
           <li>{objetive}</li>
