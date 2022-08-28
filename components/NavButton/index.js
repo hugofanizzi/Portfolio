@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./navbutton.module.scss";
+import { createMarkup } from "mods";
 
 export default function NavButton({ tittle, src, description }) {
   return (
@@ -7,7 +8,10 @@ export default function NavButton({ tittle, src, description }) {
       <Link href={src}>
         <a className={styles.navItem}>{tittle}</a>
       </Link>
-      <p className={description && styles.navItemDescription}>{description}</p>
+      <p
+        className={description && styles.navItemDescription}
+        dangerouslySetInnerHTML={createMarkup(description)}
+      ></p>
     </div>
   );
 }
