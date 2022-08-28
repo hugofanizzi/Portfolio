@@ -16,8 +16,8 @@
     &:hover{
         .navItemDescription{
             max-height: 300px;  
-            background-color: #5c5c5c;    
-            color: white;
+            background-color: rgba(vars.$primary-color,0.4) ;    
+            color: vars.$primary-color;
             margin-top: 20px;
             padding: 10px;
         }
@@ -27,6 +27,7 @@
 .navItem{
     display: flex;
     justify-content: center;
+    color: vars.$primary-color;
     background-color:#232323;
     width: 200px;
     font-size: 25px;

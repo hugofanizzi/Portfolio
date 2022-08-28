@@ -1,3 +1,5 @@
+@use "styles/variables.scss" as vars;
+
 .container{
     display: flex;
     flex-direction: column;
@@ -10,9 +12,11 @@
     font-size: 5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    color: vars.$primary-color;
 }
 
 .subtitle{
     font-size: 2.5rem;
     font-weight: bold;
+    color: vars.$secondary-color;
 }

@@ -1,3 +1,5 @@
+@use "styles/variables.scss" as vars;
+
 .mainContainer{
     display: flex;
     justify-content: center;
@@ -15,7 +17,7 @@
 
 .line{
     height: 5px;
-    background-color: white;
+    background-color: vars.$secondary-color;
     width: 100%;
     margin: 10px 0;
 }
