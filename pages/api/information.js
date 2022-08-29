@@ -55,7 +55,7 @@ const information = [
   {
     name: `Education`,
     summary: `Mi última formación ha sido "Desarrollador Web Full Stack" impartido por Adecco y Red.es en el 2022`,
-    educations: [
+    trainings: [
       {
         title: `DESARROLLADOR WEB FULL STACK`,
         trainingCenter: `ADECCO Y RED.ES`,
@@ -96,7 +96,7 @@ const information = [
       },
       {
         title: `BACHILLER EN CIENCIAS`,
-        trainingCenter: `URBE-VENEZUELA`,
+        trainingCenter: `UE Los Próceres`,
         year: `2010`,
       },
     ],

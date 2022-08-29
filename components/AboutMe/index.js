@@ -17,7 +17,6 @@ export default function AboutMe({
       <h1 className={styles.name}>{name}</h1>
       <h2 className={styles.title}>{title}</h2>
       <h3 className={styles.subtitle}>{subtitle}</h3>
-      <br />
       <div className={styles.containerContentTitle}>
         <h3 className={styles.contentTitle}>{story.contentTitle}</h3>
       </div>

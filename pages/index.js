@@ -5,6 +5,8 @@ import photo_profile from "images/profile.png";
 import NavButton from "components/NavButton";
 import SectionLayout from "components/SectionLayout";
 import AboutMe from "components/AboutMe";
+import Education from "components/Education";
+import Experience from "components/Experience";
 
 export default function Home({ information }) {
   return (
@@ -40,6 +42,18 @@ export default function Home({ information }) {
           personalObjetives={information[0].personalObjetives}
           jobsGoals={information[0].jobsGoals}
           whyMe={information[0].whyMe}
+        />
+      </SectionLayout>
+      <SectionLayout>
+        <Education
+          name={information[1].name}
+          trainings={information[1].trainings}
+        />
+      </SectionLayout>
+      <SectionLayout>
+        <Experience
+          name={information[2].name}
+          experiences={information[2].experiences}
         />
       </SectionLayout>
     </>

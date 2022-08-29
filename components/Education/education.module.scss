@@ -1,0 +1,35 @@
+@use "styles/variables.scss" as vars;
+
+
+.container{
+    display: flex;
+    flex-direction: column;;   
+}
+
+
+.trainingTitle{
+    position: relative;
+    margin: 50px 0 10px;
+    border-bottom: solid 5px vars.$secondary-color;
+    font-size: 2rem;
+    padding-bottom: 10px;   
+    animation-name: underlineMove;
+    animation-duration: 2s;
+    animation-timing-function:linear;
+    white-space: nowrap;
+}
+
+.containerTrainingTitle{
+    width: min-content;
+}
+
+@keyframes underlineMove {
+    from {
+
+      width:0%;
+    }
+  
+    to { 
+      width: 100%;
+    }
+  }
