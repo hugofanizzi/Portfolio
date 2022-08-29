@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./navbutton.module.scss";
-import { createMarkup } from "mods";
+import { createMarkup } from "utilities";
 
 export default function NavButton({ tittle, src, description }) {
   return (

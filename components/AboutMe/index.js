@@ -1,12 +1,12 @@
 import styles from "./aboutme.module.scss";
-import { createMarkup } from "mods";
+import { createMarkup } from "utilities";
 
 export default function AboutMe({
   name,
   title,
   subtitle,
   story,
-  personalObjectives,
+  personalObjetives,
   jobsGoals,
   whyMe,
   photoURL,
@@ -18,21 +18,38 @@ export default function AboutMe({
       <h2 className={styles.title}>{title}</h2>
       <h3 className={styles.subtitle}>{subtitle}</h3>
       <br />
+      <div className={styles.containerContentTitle}>
+        <h3 className={styles.contentTitle}>{story.contentTitle}</h3>
+      </div>
       <p
         className={styles.story}
-        dangerouslySetInnerHTML={createMarkup(story)}
+        dangerouslySetInnerHTML={createMarkup(story.content)}
       ></p>
-      <ul className={styles.personalObjectives}>
-        {personalObjectives.map((objetive) => (
+      <div className={styles.containerContentTitle}>
+        <h3 className={styles.contentTitle}>
+          {personalObjetives.contentTitle}
+        </h3>
+      </div>
+      <ul className={styles.personalObjetives}>
+        {personalObjetives.content.map((objetive) => (
           <li>{objetive}</li>
         ))}
       </ul>
+      <div className={styles.containerContentTitle}>
+        <h3 className={styles.contentTitle}>{jobsGoals.contentTitle}</h3>
+      </div>
       <ul className={styles.jobsGoals}>
-        {jobsGoals.map((goals) => (
+        {jobsGoals.content.map((goals) => (
           <li>{goals}</li>
         ))}
       </ul>
-      <p className={styles.whyMe}>{whyMe}</p>
+      <div className={styles.containerContentTitle}>
+        <h3 className={styles.contentTitle}>{whyMe.contentTitle}</h3>
+      </div>
+      <p
+        className={styles.whyMe}
+        dangerouslySetInnerHTML={createMarkup(whyMe.content)}
+      ></p>
     </div>
   );
 }
