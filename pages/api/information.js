@@ -1,5 +1,7 @@
 const information = [
   {
+    id: 1,
+
     name: `About me`,
 
     title: "Hugo José Esparza Fanizzi",
@@ -53,6 +55,7 @@ const information = [
   },
 
   {
+    id: 2,
     name: `Education`,
     summary: `Mi última formación ha sido "Desarrollador Web Full Stack" impartido por Adecco y Red.es en el 2022`,
     trainings: [
@@ -103,6 +106,7 @@ const information = [
   },
 
   {
+    id: 3,
     name: `Experience`,
     summary: `Mi anterior trabajo fue como "Técnico de reparación de móviles SAMSUNG" en ANOVO`,
     experiences: [
@@ -143,6 +147,7 @@ const information = [
     ],
   },
   {
+    id: 4,
     name: `Contact Me`,
     titleName: `Name:`,
     titleMessage: `Message:`,

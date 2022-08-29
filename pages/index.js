@@ -26,6 +26,7 @@ export default function Home({ information }) {
           <nav className={styles.nav}>
             {information.map((info) => (
               <NavButton
+                key={info.id}
                 tittle={info.name}
                 src={info.name}
                 description={info.summary}
