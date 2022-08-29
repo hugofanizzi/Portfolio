@@ -6,7 +6,7 @@ export default function SectionLayout({ children }) {
       <div className={styles.mainContainer}>
         <div className={styles.container}>
           <div className={styles.line}></div>
-          <main>{children}</main>
+          <main className={styles.main}>{children}</main>
         </div>
       </div>
     </>

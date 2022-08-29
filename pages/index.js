@@ -7,6 +7,7 @@ import SectionLayout from "components/SectionLayout";
 import AboutMe from "components/AboutMe";
 import Education from "components/Education";
 import Experience from "components/Experience";
+import ContactMe from "components/ContactMe";
 
 export default function Home({ information }) {
   return (
@@ -26,7 +27,7 @@ export default function Home({ information }) {
             {information.map((info) => (
               <NavButton
                 tittle={info.name}
-                src={"#"}
+                src={info.name}
                 description={info.summary}
               />
             ))}
@@ -34,6 +35,7 @@ export default function Home({ information }) {
         </div>
       </div>
       <SectionLayout>
+        <a name={information[0].name}></a>
         <AboutMe
           name={information[0].name}
           title={information[0].title}
@@ -45,15 +47,27 @@ export default function Home({ information }) {
         />
       </SectionLayout>
       <SectionLayout>
+        <a name={information[1].name}></a>
         <Education
           name={information[1].name}
           trainings={information[1].trainings}
         />
       </SectionLayout>
       <SectionLayout>
+        <a name={information[2].name}></a>
         <Experience
           name={information[2].name}
           experiences={information[2].experiences}
+        />
+      </SectionLayout>
+      <SectionLayout>
+        <a name={information[3].name}></a>
+        <ContactMe
+          name={information[3].name}
+          titleName={information[3].titleName}
+          titleMessage={information[3].titleMessage}
+          titleEmail={information[3].titleEmail}
+          titleSend={information[3].titleSend}
         />
       </SectionLayout>
     </>

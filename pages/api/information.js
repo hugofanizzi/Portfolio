@@ -103,7 +103,7 @@ const information = [
   },
 
   {
-    name: `Experiences`,
+    name: `Experience`,
     summary: `Mi anterior trabajo fue como "Técnico de reparación de móviles SAMSUNG" en ANOVO`,
     experiences: [
       {
