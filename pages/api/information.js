@@ -31,8 +31,14 @@ const information = [
     personalObjetives: {
       contentTitle: `Personal Objetives`,
       content: [
-        `Hacer crecer nuestro negocio y emprender más`,
-        `Crecer junto a mi familia y poder pasar mas tiempo juntos`,
+        {
+          id: 1,
+          p: `Hacer crecer nuestro negocio y emprender más`,
+        },
+        {
+          id: 2,
+          p: `Crecer junto a mi familia y poder pasar mas tiempo juntos`,
+        },
       ],
     },
 
