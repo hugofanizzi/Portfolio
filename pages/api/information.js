@@ -2,7 +2,7 @@ const information = [
   {
     id: 1,
 
-    name: `About me`,
+    name: `Sobre Mí`,
 
     title: "Hugo José Esparza Fanizzi",
 
@@ -15,7 +15,7 @@ const information = [
     Me gusta mucho aprender cosas nuevas y me esmero por conseguir los objetivos que me propongo sin importar las veces que caiga seran mas las veces que me levantaré.`,
 
     story: {
-      contentTitle: `Story`,
+      contentTitle: `Historia`,
       content: `Trabajo desde los 15 años, siempre he sido un poco inquieto por salir adelante, termine el bachillerato y empece a estudiar Ingenieria Eléctronica, la cual no pude terminar por iniciar mi nueva vida en España. 
       <br/><br/>
       Llegue a españa el 12 de Octubre del 2017 junto a mi esposa, llenos de iluciones y ganas de salir adelante, a los tres meses consegui mi primer trabajo como dependiente de tienda en la cual me ofrecieron la posibilidad de aprender a reparar equipos eléctronicos, sin dudar acepte y aprendi todo lo que me enseñaron y con el tiempo reforce esos conocimientos y me especialice mas en el sector, sin embargo, no me llenaba del todo. 
@@ -29,7 +29,7 @@ const information = [
     },
 
     personalObjetives: {
-      contentTitle: `Personal Objetives`,
+      contentTitle: `Objetivos Personales`,
       content: [
         {
           id: 1,
@@ -43,7 +43,7 @@ const information = [
     },
 
     jobsGoals: {
-      contentTitle: `Jobs Goals`,
+      contentTitle: `Objetivos Laborales`,
       content: [
         {
           id: 1,
@@ -61,7 +61,7 @@ const information = [
       ],
     },
     whyMe: {
-      contentTitle: `Why Me`,
+      contentTitle: `¿Por qué yo?`,
       content: `Quizas mi experiencia actual no haga saltar tu interés, pero te aseguro que si me dan una oportunidad no te arrepentiras, por que hay algo que no te da la experiencia y son las ganas de aprender, la actitud para ello y el espíritu necesario para crecer, los conocimientos se construyen y da igual los que necesite seguro paso a paso los obtendré`,
     },
 
@@ -72,7 +72,7 @@ const information = [
 
   {
     id: 2,
-    name: `Education`,
+    name: `Formaciones`,
     summary: `Mi última formación ha sido "Desarrollador Web Full Stack" impartido por Adecco y Red.es en el 2022`,
     trainings: [
       {
@@ -128,7 +128,7 @@ const information = [
 
   {
     id: 3,
-    name: `Experience`,
+    name: `Experiencia`,
     summary: `Mi anterior trabajo fue como "Técnico de reparación de móviles SAMSUNG" en ANOVO`,
     experiences: [
       {
