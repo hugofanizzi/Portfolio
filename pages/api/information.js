@@ -138,8 +138,14 @@ const information = [
         company: `ADECCO Y RED.ES`,
         timeWorking: `2022`,
         functions: [
-          { id: 1, description: `Curriculum - HTML4` },
-          { id: 2, description: `Réplica de pagina de google - HTML5 / CSS3` },
+          {
+            id: 1,
+            description: `Curriculum - HTML4`,
+          },
+          {
+            id: 2,
+            description: `Réplica de pagina de google - HTML5 / CSS3`,
+          },
           {
             id: 3,
             description: `Sistema de gestión de cafetería - JAVA SWING`,
@@ -150,8 +156,7 @@ const information = [
           },
           {
             id: 5,
-            description: `Sistema de quejas por distritos Madrid- JAVA SERVLETS
-          `,
+            description: `Sistema de quejas por distritos Madrid- JAVA SERVLETS`,
           },
         ],
       },
