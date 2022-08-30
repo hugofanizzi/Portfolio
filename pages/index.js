@@ -76,7 +76,9 @@ export default function Home({ information }) {
 }
 
 export async function getServerSideProps() {
-  const response = await fetch("http://localhost:3000/api/information");
+  const response = await fetch(
+    "https://portfolio-hugofanizzi.vercel.app/api/information"
+  );
   const information = await response.json();
   return {
     props: {
