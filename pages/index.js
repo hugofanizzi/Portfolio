@@ -12,7 +12,6 @@ import ContactMe from "components/ContactMe";
 export default function Home({ information }) {
   return (
     <>
-      {console.log(information)}
       <div className={styles.container}>
         <div className={styles.photoProfileContainer}>
           <Image
