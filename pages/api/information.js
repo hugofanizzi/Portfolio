@@ -8,11 +8,11 @@ const information = [
 
     subtitle: `No creo en las palabras "No se puede" o "No sé hacerlo" para todo hay solución y todos tenemos la capacidad de aprender lo que queramos.`,
 
-    summary: `¡Que bueno que has llegado hasta aquí!. Soy Hugo José Esparza Fanizzi, nacido en Venezuela, lleno de aspiraciones y metas por cumplir que seguro conseguire aqui en España.
-    <br/><br/>    
-    No creo en la palabra "No se puede" o  "No se hacerlo", pienso que ahora en el mundo que vivimos hay soluciones para todo y por eso me he querido sumergir en la programación ya que es un mar de infinitas posibilidades. 
+    summary: `¡Qué bueno que has llegado hasta aquí!. Soy Hugo José Esparza Fanizzi, nacido en Venezuela, lleno de aspiraciones y metas por cumplir que seguro conseguiré aquí en España.
     <br/><br/>
-    Me gusta mucho aprender cosas nuevas y me esmero por conseguir los objetivos que me propongo sin importar las veces que caiga seran mas las veces que me levantaré.`,
+    No creo en la palabra "No se puede" o  "No sé hacerlo", pienso que ahora en el mundo que vivimos hay soluciones para todo y por eso me he querido sumergir en la programación, ya que es un mar de infinitas posibilidades. 
+    <br/><br/>
+    Me gusta mucho aprender cosas nuevas y me esmero por conseguir los objetivos que me propongo sin importar las veces que caiga serán más las veces que me levantaré.`,
 
     story: {
       contentTitle: `Historia`,

@@ -6,7 +6,6 @@ export default function ContactMe({
   titleMessage,
   titleEmail,
   titleSend,
-  isDisabled,
 }) {
   return (
     <>
@@ -18,12 +17,13 @@ export default function ContactMe({
         <input className={styles.inputEmail} type="email" />
         <h3>{titleMessage}</h3>
         <textarea className={styles.textAreaMessage} name="" id=""></textarea>
-        <input
+        <h2>EN CONSTRUCCIÓN</h2>
+        {/* <input
           className={styles.inputSubmit}
           type="submit"
           name={titleSend}
           id=""
-        />
+        /> */}
       </form>
     </>
   );
