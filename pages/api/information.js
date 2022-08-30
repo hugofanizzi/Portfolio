@@ -33,11 +33,11 @@ const information = [
       content: [
         {
           id: 1,
-          p: `Hacer crecer nuestro negocio y emprender más`,
+          text: `Hacer crecer nuestro negocio y emprender más`,
         },
         {
           id: 2,
-          p: `Crecer junto a mi familia y poder pasar mas tiempo juntos`,
+          text: `Crecer junto a mi familia y poder pasar mas tiempo juntos`,
         },
       ],
     },
@@ -45,9 +45,19 @@ const information = [
     jobsGoals: {
       contentTitle: `Jobs Goals`,
       content: [
-        `Aprender cada día mas sobre el desarrollo de aplicaciones web`,
-        `Escalar y llegar a ser de mucho valor en la empresa que este`,
-        `Poder desarrollar aplicaciónes web de utilidad para mejores las empresas y negocios en general`,
+        {
+          id: 1,
+          text: `Aprender cada día mas sobre el desarrollo de aplicaciones web`,
+        },
+
+        {
+          id: 2,
+          text: `Escalar y llegar a ser de mucho valor en la empresa que este`,
+        },
+        {
+          id: 3,
+          text: `Poder desarrollar aplicaciónes web de utilidad para mejores las empresas y negocios en general`,
+        },
       ],
     },
     whyMe: {
@@ -66,44 +76,49 @@ const information = [
     summary: `Mi última formación ha sido "Desarrollador Web Full Stack" impartido por Adecco y Red.es en el 2022`,
     trainings: [
       {
+        id: 1,
         title: `DESARROLLADOR WEB FULL STACK`,
         trainingCenter: `ADECCO Y RED.ES`,
         year: `2022`,
         timeContents: `230 Hours`,
         contents: [
-          `Programación (HTML, CSS Y JAVASCRIPT)`,
-          `BBDD (MySQL)`,
-          `JAVA`,
+          { id: 1, text: `Programación (HTML, CSS Y JAVASCRIPT)` },
+          { id: 2, text: `BBDD (MySQL)` },
+          { id: 3, text: `JAVA` },
         ],
       },
       {
+        id: 2,
         title: `FUNDAMENTOS DE JAVASCRIPT`,
         trainingCenter: `PLATZI`,
         year: `2021`,
         timeContents: `230 Hours`,
         contents: [
-          `Introducción a la programación`,
-          `Fundamentos de JavaScript`,
+          { id: 1, text: `Introducción a la programación` },
+          { id: 2, text: `Fundamentos de JavaScript` },
         ],
       },
       {
+        id: 3,
         title: `REPARACIÓN DE DISPOSITIVOS ELECTRÓNICOS`,
         trainingCenter: `IRIPARO`,
         year: `2018`,
         timeContents: `80 Hours`,
         contents: [
-          `Reparación de móviles`,
-          `Reparación de tablets`,
-          `Reparación de portatiles`,
+          { id: 1, text: `Reparación de móviles` },
+          { id: 2, text: `Reparación de tablets` },
+          { id: 3, text: `Reparación de portatiles` },
         ],
       },
       {
+        id: 4,
         title: `INGENIERÍA ELECTRÓNICA     AUTOMATIZACIÓN Y CONTROL`,
         trainingCenter: `URBE-VENEZUELA`,
         year: `2017`,
         timeContents: `FINALIZADO EN 2º CURSO`,
       },
       {
+        id: 5,
         title: `BACHILLER EN CIENCIAS`,
         trainingCenter: `UE Los Próceres`,
         year: `2010`,

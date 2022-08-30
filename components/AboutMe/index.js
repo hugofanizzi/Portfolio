@@ -39,7 +39,7 @@ export default function AboutMe({
       </div>
       <ul className={styles.jobsGoals}>
         {jobsGoals.content.map((goals) => (
-          <li>{goals}</li>
+          <li key={goals.id}>{goals}</li>
         ))}
       </ul>
       <div className={styles.containerContentTitle}>

@@ -6,7 +6,7 @@ export default function Education({ name, trainings }) {
       <h1 className={styles.name}>{name}</h1>
 
       {trainings.map((training) => (
-        <div className={styles.trainingsContainer}>
+        <div key={training.id} className={styles.trainingsContainer}>
           <div className={styles.containerTrainingTitle}>
             <h3 className={styles.trainingTitle}>{training.title}</h3>
           </div>
@@ -17,7 +17,9 @@ export default function Education({ name, trainings }) {
           <ul>
             {training.contents &&
               training.contents.map((content) => (
-                <li className={styles.title}>{content}</li>
+                <li key={content.id} className={styles.title}>
+                  {content}
+                </li>
               ))}
           </ul>
         </div>
