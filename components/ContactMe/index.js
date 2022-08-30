@@ -6,6 +6,7 @@ export default function ContactMe({
   titleMessage,
   titleEmail,
   titleSend,
+  isDisabled,
 }) {
   return (
     <>
