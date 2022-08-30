@@ -6,7 +6,7 @@ const information = [
 
     title: "Hugo José Esparza Fanizzi",
 
-    subtitle: `No creo en las palabras "No se puede" o "No se hacerlo" para todo hay solución y todos tenemos la capacidad de aprender lo que queramos`,
+    subtitle: `No creo en las palabras "No se puede" o "No sé hacerlo" para todo hay solución y todos tenemos la capacidad de aprender lo que queramos.`,
 
     summary: `¡Que bueno que has llegado hasta aquí!. Soy Hugo José Esparza Fanizzi, nacido en Venezuela, lleno de aspiraciones y metas por cumplir que seguro conseguire aqui en España.
     <br/><br/>    
@@ -16,15 +16,15 @@ const information = [
 
     story: {
       contentTitle: `Historia`,
-      content: `Trabajo desde los 15 años, siempre he sido un poco inquieto por salir adelante, termine el bachillerato y empece a estudiar Ingenieria Eléctronica, la cual no pude terminar por iniciar mi nueva vida en España. 
+      content: `Trabajo desde los 15 años, siempre he sido un poco inquieto por salir adelante, terminé el bachillerato y empecé a estudiar Ingenieria Eléctronica, la cual no pude terminar por iniciar mi nueva vida en España. 
       <br/><br/>
-      Llegue a españa el 12 de Octubre del 2017 junto a mi esposa, llenos de iluciones y ganas de salir adelante, a los tres meses consegui mi primer trabajo como dependiente de tienda en la cual me ofrecieron la posibilidad de aprender a reparar equipos eléctronicos, sin dudar acepte y aprendi todo lo que me enseñaron y con el tiempo reforce esos conocimientos y me especialice mas en el sector, sin embargo, no me llenaba del todo. 
+      Llegue a España el 12 de Octubre del 2017 junto a mi esposa, llenos de iluciones y ganas de salir adelante, a los tres meses conseguí mi primer trabajo como dependiente de tienda en la cual me ofrecieron la posibilidad de aprender a reparar equipos eléctronicos, sin dudar acepte y aprendí todo lo que me enseñaron y con el tiempo reforce esos conocimientos y me especialicé mas en el sector, sin embargo, no me llenaba del todo. 
       <br/><br/>
-      Siempre me ha gustado realizar formatos en excel y hacer fórmulas, entonces por que no estudiar algo en lo que podre hacer de todo, por tal motivo decidi estudiar desarrollo web.
+      Siempre me ha gustado realizar formatos en excel y hacer fórmulas, entonces...¿Por qué no estudiar algo en lo que podré hacer de todo?, por lo que decidí estudiar desarrollo web.
       <br/><br/>
-      El 20 de Agosto del 2020 nacio mi hermosa hija. En Abril del 2021 mi esposa y yo empezamos un negocio a pesar de todos los inconvenientes de la pandemia decidimos hacerlo y aun sigue funcionando gracias a nuestro esfuerzo y dedicación, la cual tambien quiero transmitir en mis futuros trabajos.
+      El 20 de Agosto del 2020 nació mi hermosa hija. En Abril del 2021 mi esposa y yo empezamos un negocio y,  a pesar de la pandemia, sigue funcionando gracias a nuestro esfuerzo y dedicación, la cual también quiero transmitir en mis futuros trabajos.
       <br/><br/>
-      Dar lo mejor de mi para obtener los mejores resultados y sin ponerme limites para aprender lo que sea necesario en el trayecto.
+      Dar lo mejor de mí para obtener los mejores resultados y nunca ponerme límites para aprender lo que sea necesario en el trayecto.
       `,
     },
 
@@ -37,7 +37,7 @@ const information = [
         },
         {
           id: 2,
-          text: `Crecer junto a mi familia y poder pasar mas tiempo juntos`,
+          text: `Crecer junto a mi familia y poder pasar más tiempo juntos`,
         },
       ],
     },
@@ -47,7 +47,7 @@ const information = [
       content: [
         {
           id: 1,
-          text: `Aprender cada día mas sobre el desarrollo de aplicaciones web`,
+          text: `Aprender cada día más sobre el desarrollo de aplicaciones web`,
         },
 
         {
@@ -56,13 +56,13 @@ const information = [
         },
         {
           id: 3,
-          text: `Poder desarrollar aplicaciónes web de utilidad para mejores las empresas y negocios en general`,
+          text: `Poder desarrollar aplicaciones web de utilidad para las empresas y negocios en general`,
         },
       ],
     },
     whyMe: {
       contentTitle: `¿Por qué yo?`,
-      content: `Quizas mi experiencia actual no haga saltar tu interés, pero te aseguro que si me dan una oportunidad no te arrepentiras, por que hay algo que no te da la experiencia y son las ganas de aprender, la actitud para ello y el espíritu necesario para crecer, los conocimientos se construyen y da igual los que necesite seguro paso a paso los obtendré`,
+      content: `Quizás mi experiencia actual no haga saltar tu interés, pero te aseguro que si me das una oportunidad no te arrepentirás, por que hay algo que no te da la experiencia y son las ganas de aprender, la actitud para ello y el espíritu necesario para crecer, los conocimientos se construyen y da igual lo que se necesite seguro paso a paso los obtendré.`,
     },
 
     photoURL: ``,
@@ -189,7 +189,7 @@ const information = [
         functions: [
           {
             id: 1,
-            description: `Configuración de equipos de redes (CISCO).
+            description: `Configuración de equipos de redes (CISCO)
         `,
           },
         ],
