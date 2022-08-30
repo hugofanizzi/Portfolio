@@ -18,7 +18,7 @@ const information = [
       contentTitle: `Historia`,
       content: `Trabajo desde los 15 años, siempre he sido un poco inquieto por salir adelante, terminé el bachillerato y empecé a estudiar Ingenieria Eléctronica, la cual no pude terminar por iniciar mi nueva vida en España. 
       <br/><br/>
-      Llegue a España el 12 de Octubre del 2017 junto a mi esposa, llenos de iluciones y ganas de salir adelante, a los tres meses conseguí mi primer trabajo como dependiente de tienda en la cual me ofrecieron la posibilidad de aprender a reparar equipos eléctronicos, sin dudar acepte y aprendí todo lo que me enseñaron y con el tiempo reforce esos conocimientos y me especialicé mas en el sector, sin embargo, no me llenaba del todo. 
+      Llegue a España el 12 de Octubre del 2017 junto a mi esposa, llenos de ilusiones y ganas de salir adelante, a los tres meses conseguí mi primer trabajo como dependiente de tienda en la cual me ofrecieron la posibilidad de aprender a reparar equipos eléctronicos, sin dudar acepte y aprendí todo lo que me enseñaron y con el tiempo reforce esos conocimientos y me especialicé mas en el sector, sin embargo, no me llenaba del todo. 
       <br/><br/>
       Siempre me ha gustado realizar formatos en excel y hacer fórmulas, entonces...¿Por qué no estudiar algo en lo que podré hacer de todo?, por lo que decidí estudiar desarrollo web.
       <br/><br/>
