@@ -5,7 +5,7 @@ export default function Experience({ name, experiences }) {
     <>
       <h1>{name}</h1>
       {experiences.map((experience) => (
-        <div>
+        <div key={experience.id}>
           <div className={styles.containerJobTitle}>
             <h3 className={styles.jobTitle}>{experience.job}</h3>
           </div>
@@ -15,7 +15,7 @@ export default function Experience({ name, experiences }) {
           <ul>
             {experience.functions &&
               experience.functions.map((eachFunction) => (
-                <li>{eachFunction}</li>
+                <li key={eachFunction.id}>{eachFunction.description}</li>
               ))}
           </ul>
         </div>

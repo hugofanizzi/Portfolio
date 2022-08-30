@@ -18,7 +18,7 @@ export default function Education({ name, trainings }) {
             {training.contents &&
               training.contents.map((content) => (
                 <li key={content.id} className={styles.title}>
-                  {content}
+                  {content.text}
                 </li>
               ))}
           </ul>

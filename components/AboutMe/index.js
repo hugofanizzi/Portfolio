@@ -31,7 +31,7 @@ export default function AboutMe({
       </div>
       <ul className={styles.personalObjetives}>
         {personalObjetives.content.map((objetive) => (
-          <li key={objetive.id}>{objetive.p}</li>
+          <li key={objetive.id}>{objetive.text}</li>
         ))}
       </ul>
       <div className={styles.containerContentTitle}>
@@ -39,7 +39,7 @@ export default function AboutMe({
       </div>
       <ul className={styles.jobsGoals}>
         {jobsGoals.content.map((goals) => (
-          <li key={goals.id}>{goals}</li>
+          <li key={goals.id}>{goals.text}</li>
         ))}
       </ul>
       <div className={styles.containerContentTitle}>

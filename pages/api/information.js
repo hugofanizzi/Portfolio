@@ -132,37 +132,61 @@ const information = [
     summary: `Mi anterior trabajo fue como "Técnico de reparación de móviles SAMSUNG" en ANOVO`,
     experiences: [
       {
+        id: 1,
         job: `PRÁCTICAS CURSO PROGRAMADOR WEB
         FULL STACK`,
         company: `ADECCO Y RED.ES`,
         timeWorking: `2022`,
         functions: [
-          `Curriculum - HTML4`,
-          `Réplica de pagina de google - HTML5 / CSS3`,
-          `Sistema de gestión de cafetería - JAVA SWING`,
-          `Gestión de venta de entradas futbol - JAVA SERVLETS`,
-          `Sistema de quejas por distritos Madrid- JAVA SERVLETS
+          { id: 1, description: `Curriculum - HTML4` },
+          { id: 2, description: `Réplica de pagina de google - HTML5 / CSS3` },
+          {
+            id: 3,
+            description: `Sistema de gestión de cafetería - JAVA SWING`,
+          },
+          {
+            id: 4,
+            description: `Gestión de venta de entradas futbol - JAVA SERVLETS`,
+          },
+          {
+            id: 5,
+            description: `Sistema de quejas por distritos Madrid- JAVA SERVLETS
           `,
+          },
         ],
       },
       {
+        id: 2,
         job: `TÉCNICO EN REPARACIÓN DE DISPOSITIVOS
         ELECTRÓNICOS`,
         company: `IRIPARO / ANOVO`,
         timeWorking: `2018-2022`,
         functions: [
-          `Reparación de dispositivos con software (ODIN - SAMSUNG)`,
-          `Reparación de dispositivos Hardware (Multi-marca)`,
-          `Reparaciones de nivel 3 soldadura y micro-soldadura`,
+          {
+            id: 1,
+            description: `Reparación de dispositivos con software (ODIN - SAMSUNG)`,
+          },
+          {
+            id: 2,
+            description: `Reparación de dispositivos Hardware (Multi-marca)`,
+          },
+          {
+            id: 3,
+            description: `Reparaciones de nivel 3 soldadura y micro-soldadura`,
+          },
         ],
       },
       {
+        id: 3,
         job: `SOPORTE TÉCNICO REDES`,
         company: `SAETA INGENIERÍA `,
         timeWorking: `2013-2017`,
         functions: [
-          `Configuración de equipos de redes (CISCO).
+          {
+            id: 1,
+            description: `Configuración de equipos de redes (CISCO).
         `,
+          },
         ],
       },
     ],
