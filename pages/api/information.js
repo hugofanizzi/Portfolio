@@ -198,11 +198,11 @@ const information = [
   },
   {
     id: 4,
-    name: `Contact Me`,
-    titleName: `Name:`,
-    titleMessage: `Message:`,
-    titleEmail: `Email:`,
-    titleSend: `Confirm`,
+    name: `Contáctame`,
+    titleName: `Nombre:`,
+    titleMessage: `Mensaje:`,
+    titleEmail: `Correo electrónico:`,
+    titleSend: `Enviar`,
   },
 ];
 
