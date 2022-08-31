@@ -67,6 +67,7 @@ export default function Home({ information }) {
           titleMessage={information[3].titleMessage}
           titleEmail={information[3].titleEmail}
           titleSend={information[3].titleSend}
+          titleSending={information[3].titleSending}
         />
       </SectionLayout>
     </>

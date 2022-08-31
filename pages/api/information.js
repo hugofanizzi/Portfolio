@@ -203,6 +203,7 @@ const information = [
     titleMessage: `Mensaje:`,
     titleEmail: `Correo electrónico:`,
     titleSend: `Enviar`,
+    titleSending: `Enviando...`,
   },
 ];
 
