@@ -7,9 +7,10 @@ export default function Layout({ children }) {
     <>
       <Head>
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
-        <title>Hugo José Esparza Fanizzi</title>
+        <meta name="viewport" content="initial-scale=1" />
+        <title>Hugo Esparza</title>
       </Head>
-      <Header title={"Web Developer"} subtitle={"Hugo José Esparza Fanizzi"} />
+      <Header title={"Web Developer"} subtitle={"Hugo Esparza"} />
       <main className={styles.main}>{children}</main>
     </>
   );

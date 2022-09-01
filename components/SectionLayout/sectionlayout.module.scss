@@ -3,7 +3,6 @@
 .mainContainer{
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 
 .container{
@@ -12,14 +11,13 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;    
-    width: 80%;
 }
 
 .line{
     height: 10px;
+    width: 100%;
     background-color: vars.$secondary-color;
     border-radius: 15px;
-    width: 100%;
     margin: 10px 0;
 }
 

@@ -4,7 +4,7 @@ const information = [
 
     name: `Sobre Mí`,
 
-    title: "Hugo José Esparza Fanizzi",
+    title: "Hugo Esparza",
 
     subtitle: `No creo en las palabras "No se puede" o "No sé hacerlo" para todo hay solución y todos tenemos la capacidad de aprender lo que queramos.`,
 
