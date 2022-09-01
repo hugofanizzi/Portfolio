@@ -6,7 +6,7 @@ export default function Experience({ name, experiences }) {
       <h1>{name}</h1>
       {experiences.map((experience) => (
         <div key={experience.id}>
-          <div className={styles.containerr}>
+          <div className={styles.container}>
             <h3 className={styles.jobTitle}>{experience.job}</h3>
             <div className={styles.underlineJobTitle}></div>
           </div>
